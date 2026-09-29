@@ -1,0 +1,582 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Chandan | Aspiring Data Scientist & AI/ML Engineer</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Fira+Code:wght@400;500&display=swap');
+    body {
+      font-family: 'Inter', sans-serif;
+    }
+    .font-mono {
+      font-family: 'Fira Code', monospace;
+    }
+    .gradient-text {
+      background: linear-gradient(135deg, #38bdf8 0%, #818cf8 50%, #c084fc 100%);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+    }
+  </style>
+</head>
+<body class="bg-slate-950 text-slate-100 antialiased selection:bg-indigo-500 selection:text-white">
+
+  <!-- Navbar -->
+  <header class="fixed top-0 left-0 w-full bg-slate-950/80 backdrop-blur-md border-b border-slate-800/80 z-50">
+    <div class="max-w-6xl mx-auto px-4 sm:px-6 h-16 flex items-center justify-between">
+      <a href="#hero" class="text-xl font-bold tracking-tight text-white flex items-center gap-2">
+        <span class="w-3 h-3 rounded-full bg-indigo-500 animate-pulse"></span>
+        Chandan<span class="text-indigo-400">.</span>
+      </a>
+      <nav class="hidden md:flex items-center gap-6 text-sm font-medium text-slate-300">
+        <a href="#about" class="hover:text-indigo-400 transition-colors">About</a>
+        <a href="#experience" class="hover:text-indigo-400 transition-colors">Experience</a>
+        <a href="#projects" class="hover:text-indigo-400 transition-colors">Projects</a>
+        <a href="#skills" class="hover:text-indigo-400 transition-colors">Skills</a>
+        <a href="#certifications" class="hover:text-indigo-400 transition-colors">Certifications</a>
+        <a href="#education" class="hover:text-indigo-400 transition-colors">Education</a>
+        <a href="#resume" class="text-indigo-400 hover:text-indigo-300 transition-colors">Resume</a>
+      </nav>
+      <div class="flex items-center gap-3">
+        <a href="#resume" class="px-3.5 py-1.5 text-xs font-semibold rounded-lg border border-indigo-500/50 text-indigo-300 hover:bg-indigo-950/60 transition-all flex items-center gap-1.5">
+          <i class="fa-solid fa-file-pdf"></i>
+          <span>Resume</span>
+        </a>
+        <a href="#contact" class="hidden sm:inline-flex items-center justify-center px-4 py-2 text-xs font-semibold uppercase tracking-wider rounded-lg bg-indigo-600 hover:bg-indigo-500 text-white transition-all shadow-lg shadow-indigo-600/30">
+          Get in Touch
+        </a>
+      </div>
+    </div>
+  </header>
+
+  <!-- Hero Section -->
+  <section id="hero" class="pt-32 pb-20 px-4 sm:px-6 max-w-6xl mx-auto min-h-[85vh] flex flex-col justify-center">
+    <div class="inline-flex items-center gap-2 px-3 py-1.5 rounded-full bg-indigo-950/60 border border-indigo-800/50 text-indigo-300 text-xs font-medium w-fit mb-6">
+      <span class="w-2 h-2 rounded-full bg-emerald-400 animate-ping"></span>
+      Actively Seeking AI/ML & Data Science Internships
+    </div>
+    
+    <h1 class="text-4xl sm:text-6xl lg:text-7xl font-extrabold tracking-tight text-white mb-6">
+      Hi, I'm <span class="gradient-text">Chandan</span>[cite: 1]
+    </h1>
+    
+    <p class="text-xl sm:text-2xl text-slate-300 font-medium mb-4">
+      Aspiring Data Scientist & AI/ML Engineer
+    </p>
+
+    <p class="text-base sm:text-lg text-slate-400 max-w-2xl leading-relaxed mb-8">
+      A self-driven and meticulous B.Sc. Computer Science student at Motilal Nehru College, University of Delhi (Top 5% of batch)[cite: 1]. Passionate about Data Analytics, Machine Learning, and NLP, with a focus on transforming complex data into business value and practical AI solutions.
+    </p>
+
+    <div class="flex flex-wrap items-center gap-4">
+      <a href="#projects" class="px-6 py-3 rounded-lg bg-indigo-600 hover:bg-indigo-500 text-white font-semibold text-sm transition-all shadow-lg shadow-indigo-600/25 flex items-center gap-2">
+        <span>View My Projects</span>
+        <i class="fa-solid fa-arrow-right text-xs"></i>
+      </a>
+      <a href="#resume" class="px-6 py-3 rounded-lg bg-slate-900 hover:bg-slate-800 border border-indigo-500/40 text-indigo-300 font-semibold text-sm transition-all flex items-center gap-2">
+        <i class="fa-solid fa-file-arrow-down"></i>
+        <span>Download Resume</span>
+      </a>
+      <a href="https://linkedin.com/in/chandan-kumar/" target="_blank" class="p-3 rounded-lg bg-slate-900 hover:bg-slate-800 border border-slate-800 text-slate-300 hover:text-indigo-400 transition-all" title="LinkedIn Profile[cite: 1]">
+        <i class="fa-brands fa-linkedin text-lg"></i>
+      </a>
+      <a href="mailto:gvghbjkgu@gmail.com" class="p-3 rounded-lg bg-slate-900 hover:bg-slate-800 border border-slate-800 text-slate-300 hover:text-indigo-400 transition-all" title="Email Chandan[cite: 1]">
+        <i class="fa-solid fa-envelope text-lg"></i>
+      </a>
+    </div>
+
+    <!-- Quick Stats -->
+    <div class="grid grid-cols-2 md:grid-cols-4 gap-4 mt-16 pt-8 border-t border-slate-800/80">
+      <div>
+        <p class="text-2xl font-bold text-white">Top 5%</p>
+        <p class="text-xs text-slate-400 mt-1">Academic Batch Standing[cite: 1]</p>
+      </div>
+      <div>
+        <p class="text-2xl font-bold text-white">2+ Years</p>
+        <p class="text-xs text-slate-400 mt-1">Class Representative[cite: 1]</p>
+      </div>
+      <div>
+        <p class="text-2xl font-bold text-white">4+ Certifications</p>
+        <p class="text-xs text-slate-400 mt-1">Data & AI Specializations[cite: 1]</p>
+      </div>
+      <div>
+        <p class="text-2xl font-bold text-white">Hands-on</p>
+        <p class="text-xs text-slate-400 mt-1">Order Operations & Data Audits</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- About Section -->
+  <section id="about" class="py-20 bg-slate-900/50 border-t border-slate-850 px-4 sm:px-6">
+    <div class="max-w-6xl mx-auto">
+      <div class="flex items-center gap-3 mb-8">
+        <span class="text-indigo-400 font-mono text-sm">01.</span>
+        <h2 class="text-2xl sm:text-3xl font-bold text-white">About Me</h2>
+        <div class="h-[1px] bg-slate-800 flex-grow ml-4 max-w-xs"></div>
+      </div>
+
+      <div class="grid md:grid-cols-3 gap-8 text-slate-300 leading-relaxed text-sm sm:text-base">
+        <div class="md:col-span-2 space-y-4">
+          <p>
+            I am currently in my 7th semester of B.Sc. Computer Science at <strong class="text-white">Motilal Nehru College, University of Delhi</strong> (graduating in 2027)[cite: 1]. I have a strong foundation in computational thinking and place among the top 5% of my batch[cite: 1].
+          </p>
+          <p>
+            I am curious, eager to learn new technologies, and a proven team player[cite: 1]. My focus lies in continuously advancing my technical and analytical skills across Python, SQL, Machine Learning, and NLP to uncover actionable business insights and design intelligent workflows.
+          </p>
+          <p>
+            Beyond technical coursework, I have served as the <strong class="text-white">Class Representative for the past 2 years</strong>[cite: 1], demonstrating effective communication, coordination, and leadership[cite: 1]. I also dedicate time to social impact, having taught under-privileged children near our college campus[cite: 1].
+          </p>
+        </div>
+
+        <div class="bg-slate-900/90 border border-slate-800 p-6 rounded-xl space-y-4">
+          <h3 class="text-white font-semibold text-sm uppercase tracking-wider text-indigo-400">Soft Skills & Activities</h3>
+          <div class="flex flex-wrap gap-2">
+            <span class="px-2.5 py-1 text-xs bg-slate-800 text-slate-300 rounded border border-slate-700">Communication[cite: 1]</span>
+            <span class="px-2.5 py-1 text-xs bg-slate-800 text-slate-300 rounded border border-slate-700">Problem Solving[cite: 1]</span>
+            <span class="px-2.5 py-1 text-xs bg-slate-800 text-slate-300 rounded border border-slate-700">Critical Thinking[cite: 1]</span>
+            <span class="px-2.5 py-1 text-xs bg-slate-800 text-slate-300 rounded border border-slate-700">Teamwork[cite: 1]</span>
+            <span class="px-2.5 py-1 text-xs bg-slate-800 text-slate-300 rounded border border-slate-700">Leadership[cite: 1]</span>
+          </div>
+          <div class="pt-4 border-t border-slate-800 text-xs text-slate-400 space-y-2">
+            <p><strong class="text-slate-200">Community:</strong> Volunteered teaching under-privileged children[cite: 1]</p>
+            <p><strong class="text-slate-200">Personal Interests:</strong> Playing Cricket & Watching Movies[cite: 1]</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Experience Section -->
+  <section id="experience" class="py-20 px-4 sm:px-6 max-w-6xl mx-auto">
+    <div class="flex items-center gap-3 mb-10">
+      <span class="text-indigo-400 font-mono text-sm">02.</span>
+      <h2 class="text-2xl sm:text-3xl font-bold text-white">Experience & Roles</h2>
+      <div class="h-[1px] bg-slate-800 flex-grow ml-4 max-w-xs"></div>
+    </div>
+
+    <div class="relative pl-6 sm:pl-8 border-l border-slate-800 space-y-10">
+      <!-- Role 1: Order Executive -->
+      <div class="relative group">
+        <span class="absolute -left-[31px] sm:-left-[39px] top-1.5 w-4 h-4 rounded-full bg-slate-900 border-2 border-indigo-500 group-hover:scale-125 transition-transform"></span>
+        <div class="bg-slate-900/60 border border-slate-800/80 p-6 rounded-xl hover:border-slate-700 transition-colors">
+          <div class="flex flex-col sm:flex-row sm:items-center justify-between gap-1 mb-3">
+            <h3 class="text-lg font-bold text-white">Order Executive</h3>
+            <span class="text-xs font-mono text-indigo-400">Professional Experience</span>
+          </div>
+          <p class="text-sm font-medium text-slate-300 mb-3">Amicco</p>
+          <ul class="text-sm text-slate-400 space-y-2 list-disc list-inside">
+            <li>Process and handle customer orders with accuracy and minimal turnaround time.</li>
+            <li>Maintain, sanitize, and manage company records and operational data using Microsoft Excel[cite: 1].</li>
+            <li>Ensure database consistency and tracking across high volumes of order transactions.</li>
+          </ul>
+        </div>
+      </div>
+
+      <!-- Role 2: Class Representative -->
+      <div class="relative group">
+        <span class="absolute -left-[31px] sm:-left-[39px] top-1.5 w-4 h-4 rounded-full bg-slate-900 border-2 border-slate-600 group-hover:scale-125 transition-transform"></span>
+        <div class="bg-slate-900/60 border border-slate-800/80 p-6 rounded-xl hover:border-slate-700 transition-colors">
+          <div class="flex flex-col sm:flex-row sm:items-center justify-between gap-1 mb-3">
+            <h3 class="text-lg font-bold text-white">Class Representative[cite: 1]</h3>
+            <span class="text-xs font-mono text-slate-400">2023 – Present[cite: 1]</span>
+          </div>
+          <p class="text-sm font-medium text-slate-300 mb-3">Motilal Nehru College, University of Delhi[cite: 1]</p>
+          <ul class="text-sm text-slate-400 space-y-2 list-disc list-inside">
+            <li>Elected and serving for 2 consecutive years representing batch peers to faculty and administration[cite: 1].</li>
+            <li>Coordinate academic schedules, distribute critical notifications, and organize peer study groups[cite: 1].</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Projects Section -->
+  <section id="projects" class="py-20 bg-slate-900/50 border-t border-slate-850 px-4 sm:px-6">
+    <div class="max-w-6xl mx-auto">
+      <div class="flex items-center gap-3 mb-10">
+        <span class="text-indigo-400 font-mono text-sm">03.</span>
+        <h2 class="text-2xl sm:text-3xl font-bold text-white">Projects</h2>
+        <div class="h-[1px] bg-slate-800 flex-grow ml-4 max-w-xs"></div>
+      </div>
+
+      <div class="grid md:grid-cols-3 gap-6">
+        <!-- Project 1 -->
+        <div class="bg-slate-900 border border-slate-800 rounded-xl p-6 flex flex-col justify-between hover:border-indigo-500/50 hover:shadow-xl hover:shadow-indigo-500/5 transition-all">
+          <div>
+            <div class="flex items-center justify-between mb-4">
+              <span class="p-2.5 rounded-lg bg-indigo-950/60 border border-indigo-800/40 text-indigo-400">
+                <i class="fa-solid fa-utensils"></i>
+              </span>
+              <span class="text-xs font-mono text-slate-500">Web App</span>
+            </div>
+            <h3 class="text-lg font-bold text-white mb-2">Canteen Management System[cite: 1]</h3>
+            <p class="text-sm text-slate-400 leading-relaxed mb-4">
+              A comprehensive system designed to streamline food ordering, menu selection, and billing transactions, reducing queue times and manual ledger tracking.
+            </p>
+          </div>
+          <div>
+            <div class="flex flex-wrap gap-2 pt-4 border-t border-slate-800">
+              <span class="text-xs font-mono text-indigo-300">HTML[cite: 1]</span>
+              <span class="text-xs font-mono text-indigo-300">CSS[cite: 1]</span>
+              <span class="text-xs font-mono text-indigo-300">JavaScript</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Project 2 -->
+        <div class="bg-slate-900 border border-slate-800 rounded-xl p-6 flex flex-col justify-between hover:border-indigo-500/50 hover:shadow-xl hover:shadow-indigo-500/5 transition-all">
+          <div>
+            <div class="flex items-center justify-between mb-4">
+              <span class="p-2.5 rounded-lg bg-indigo-950/60 border border-indigo-800/40 text-indigo-400">
+                <i class="fa-solid fa-traffic-light"></i>
+              </span>
+              <span class="text-xs font-mono text-slate-500">Systems</span>
+            </div>
+            <h3 class="text-lg font-bold text-white mb-2">Traffic Light Management[cite: 1]</h3>
+            <p class="text-sm text-slate-400 leading-relaxed mb-4">
+              Simulation and algorithmic model regulating signal intervals based on programmed conditions and logic cycles to optimize vehicular traffic flow.
+            </p>
+          </div>
+          <div>
+            <div class="flex flex-wrap gap-2 pt-4 border-t border-slate-800">
+              <span class="text-xs font-mono text-indigo-300">C++[cite: 1]</span>
+              <span class="text-xs font-mono text-indigo-300">Data Structures[cite: 1]</span>
+              <span class="text-xs font-mono text-indigo-300">Algorithms</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Project 3 -->
+        <div class="bg-slate-900 border border-slate-800 rounded-xl p-6 flex flex-col justify-between hover:border-indigo-500/50 hover:shadow-xl hover:shadow-indigo-500/5 transition-all">
+          <div>
+            <div class="flex items-center justify-between mb-4">
+              <span class="p-2.5 rounded-lg bg-indigo-950/60 border border-indigo-800/40 text-indigo-400">
+                <i class="fa-solid fa-graduation-cap"></i>
+              </span>
+              <span class="text-xs font-mono text-slate-500">Analytics</span>
+            </div>
+            <h3 class="text-lg font-bold text-white mb-2">Student Marksheet System[cite: 1]</h3>
+            <p class="text-sm text-slate-400 leading-relaxed mb-4">
+              Application developed to manage student grading records, perform automated statistical score aggregations, and generate formatted academic grade reports.
+            </p>
+          </div>
+          <div>
+            <div class="flex flex-wrap gap-2 pt-4 border-t border-slate-800">
+              <span class="text-xs font-mono text-indigo-300">Python[cite: 1]</span>
+              <span class="text-xs font-mono text-indigo-300">File I/O</span>
+              <span class="text-xs font-mono text-indigo-300">Data Processing</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Skills Section -->
+  <section id="skills" class="py-20 px-4 sm:px-6 max-w-6xl mx-auto">
+    <div class="flex items-center gap-3 mb-10">
+      <span class="text-indigo-400 font-mono text-sm">04.</span>
+      <h2 class="text-2xl sm:text-3xl font-bold text-white">Technical Skills & Coursework</h2>
+      <div class="h-[1px] bg-slate-800 flex-grow ml-4 max-w-xs"></div>
+    </div>
+
+    <div class="grid md:grid-cols-3 gap-6 mb-12">
+      <!-- Programming -->
+      <div class="bg-slate-900/60 border border-slate-800 p-6 rounded-xl">
+        <h3 class="text-base font-bold text-white mb-4 flex items-center gap-2">
+          <i class="fa-solid fa-code text-indigo-400"></i> Languages & Web
+        </h3>
+        <div class="flex flex-wrap gap-2">
+          <span class="px-3 py-1.5 bg-slate-800 text-slate-200 text-xs rounded-md">Python[cite: 1]</span>
+          <span class="px-3 py-1.5 bg-slate-800 text-slate-200 text-xs rounded-md">C++[cite: 1]</span>
+          <span class="px-3 py-1.5 bg-slate-800 text-slate-200 text-xs rounded-md">SQL</span>
+          <span class="px-3 py-1.5 bg-slate-800 text-slate-200 text-xs rounded-md">HTML[cite: 1]</span>
+          <span class="px-3 py-1.5 bg-slate-800 text-slate-200 text-xs rounded-md">CSS[cite: 1]</span>
+        </div>
+      </div>
+
+      <!-- Data Science & AI -->
+      <div class="bg-slate-900/60 border border-slate-800 p-6 rounded-xl">
+        <h3 class="text-base font-bold text-white mb-4 flex items-center gap-2">
+          <i class="fa-solid fa-brain text-indigo-400"></i> Data Science & AI/ML
+        </h3>
+        <div class="flex flex-wrap gap-2">
+          <span class="px-3 py-1.5 bg-slate-800 text-slate-200 text-xs rounded-md">Machine Learning</span>
+          <span class="px-3 py-1.5 bg-slate-800 text-slate-200 text-xs rounded-md">NLP</span>
+          <span class="px-3 py-1.5 bg-slate-800 text-slate-200 text-xs rounded-md">Pandas</span>
+          <span class="px-3 py-1.5 bg-slate-800 text-slate-200 text-xs rounded-md">NumPy</span>
+          <span class="px-3 py-1.5 bg-slate-800 text-slate-200 text-xs rounded-md">Generative AI</span>
+          <span class="px-3 py-1.5 bg-slate-800 text-slate-200 text-xs rounded-md">Data Analytics</span>
+        </div>
+      </div>
+
+      <!-- Tools & Productivity -->
+      <div class="bg-slate-900/60 border border-slate-800 p-6 rounded-xl">
+        <h3 class="text-base font-bold text-white mb-4 flex items-center gap-2">
+          <i class="fa-solid fa-wrench text-indigo-400"></i> Tools & Visualization
+        </h3>
+        <div class="flex flex-wrap gap-2">
+          <span class="px-3 py-1.5 bg-slate-800 text-slate-200 text-xs rounded-md">Microsoft Excel[cite: 1]</span>
+          <span class="px-3 py-1.5 bg-slate-800 text-slate-200 text-xs rounded-md">Power BI</span>
+          <span class="px-3 py-1.5 bg-slate-800 text-slate-200 text-xs rounded-md">LaTeX[cite: 1]</span>
+          <span class="px-3 py-1.5 bg-slate-800 text-slate-200 text-xs rounded-md">Canva[cite: 1]</span>
+          <span class="px-3 py-1.5 bg-slate-800 text-slate-200 text-xs rounded-md">PowerPoint[cite: 1]</span>
+          <span class="px-3 py-1.5 bg-slate-800 text-slate-200 text-xs rounded-md">Word[cite: 1]</span>
+        </div>
+      </div>
+    </div>
+
+    <!-- Academic Coursework -->
+    <div class="bg-slate-900/40 border border-slate-800/80 p-6 rounded-xl">
+      <h4 class="text-sm font-semibold uppercase tracking-wider text-slate-300 mb-4">Relevant University Coursework[cite: 1]</h4>
+      <div class="flex flex-wrap gap-3">
+        <span class="px-3 py-1 bg-slate-800/80 text-slate-300 text-xs rounded-full border border-slate-700/60">Data Structures[cite: 1]</span>
+        <span class="px-3 py-1 bg-slate-800/80 text-slate-300 text-xs rounded-full border border-slate-700/60">Programming using C++[cite: 1]</span>
+        <span class="px-3 py-1 bg-slate-800/80 text-slate-300 text-xs rounded-full border border-slate-700/60">Python Programming[cite: 1]</span>
+        <span class="px-3 py-1 bg-slate-800/80 text-slate-300 text-xs rounded-full border border-slate-700/60">Computer System Architecture[cite: 1]</span>
+        <span class="px-3 py-1 bg-slate-800/80 text-slate-300 text-xs rounded-full border border-slate-700/60">Front End Web Design & Development[cite: 1]</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- Certifications Section -->
+  <section id="certifications" class="py-20 bg-slate-900/50 border-t border-slate-850 px-4 sm:px-6">
+    <div class="max-w-6xl mx-auto">
+      <div class="flex items-center gap-3 mb-10">
+        <span class="text-indigo-400 font-mono text-sm">05.</span>
+        <h2 class="text-2xl sm:text-3xl font-bold text-white">Certifications & Training</h2>
+        <div class="h-[1px] bg-slate-800 flex-grow ml-4 max-w-xs"></div>
+      </div>
+
+      <div class="grid sm:grid-cols-2 lg:grid-cols-4 gap-6">
+        <div class="bg-slate-900 border border-slate-800 p-5 rounded-xl flex flex-col justify-between">
+          <div>
+            <div class="text-indigo-400 mb-3 text-lg"><i class="fa-solid fa-certificate"></i></div>
+            <h4 class="font-bold text-white text-sm mb-1">Deloitte Data Analytics Specialization[cite: 1]</h4>
+            <p class="text-xs text-slate-400">Deloitte[cite: 1]</p>
+          </div>
+          <span class="text-xs font-mono text-slate-500 mt-4">Issued: Jun 2025[cite: 1]</span>
+        </div>
+
+        <div class="bg-slate-900 border border-slate-800 p-5 rounded-xl flex flex-col justify-between">
+          <div>
+            <div class="text-indigo-400 mb-3 text-lg"><i class="fa-brands fa-python"></i></div>
+            <h4 class="font-bold text-white text-sm mb-1">Applied Data Science with Python[cite: 1]</h4>
+            <p class="text-xs text-slate-400">University of Michigan[cite: 1]</p>
+          </div>
+          <span class="text-xs font-mono text-slate-500 mt-4">Issued: Nov 2024[cite: 1]</span>
+        </div>
+
+        <div class="bg-slate-900 border border-slate-800 p-5 rounded-xl flex flex-col justify-between">
+          <div>
+            <div class="text-indigo-400 mb-3 text-lg"><i class="fa-solid fa-microchip"></i></div>
+            <h4 class="font-bold text-white text-sm mb-1">Generative AI Mastermind</h4>
+            <p class="text-xs text-slate-400">Executive AI & LLM Training</p>
+          </div>
+          <span class="text-xs font-mono text-slate-500 mt-4">GenAI Specialization</span>
+        </div>
+
+        <div class="bg-slate-900 border border-slate-800 p-5 rounded-xl flex flex-col justify-between">
+          <div>
+            <div class="text-indigo-400 mb-3 text-lg"><i class="fa-solid fa-chart-line"></i></div>
+            <h4 class="font-bold text-white text-sm mb-1">Data Analytics Training</h4>
+            <p class="text-xs text-slate-400">Core Analytics & Business Intelligence</p>
+          </div>
+          <span class="text-xs font-mono text-slate-500 mt-4">Analytics Specialization</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Education Section -->
+  <section id="education" class="py-20 px-4 sm:px-6 max-w-6xl mx-auto">
+    <div class="flex items-center gap-3 mb-10">
+      <span class="text-indigo-400 font-mono text-sm">06.</span>
+      <h2 class="text-2xl sm:text-3xl font-bold text-white">Education</h2>
+      <div class="h-[1px] bg-slate-800 flex-grow ml-4 max-w-xs"></div>
+    </div>
+
+    <div class="space-y-6">
+      <div class="bg-slate-900/60 border border-slate-800 p-6 rounded-xl flex flex-col sm:flex-row sm:items-center justify-between gap-4">
+        <div>
+          <h3 class="text-lg font-bold text-white">Bachelor of Science in Computer Science[cite: 1]</h3>
+          <p class="text-indigo-400 text-sm font-medium">Motilal Nehru College, University of Delhi[cite: 1]</p>
+          <p class="text-xs text-slate-400 mt-1">Standing: Among the top 5% of the batch[cite: 1] • 7th Semester (Graduating 2027)</p>
+        </div>
+        <div class="text-left sm:text-right">
+          <span class="text-xs font-mono text-slate-400 block">2023 – Present[cite: 1]</span>
+          <span class="text-xs text-slate-500">New Delhi, India[cite: 1]</span>
+        </div>
+      </div>
+
+      <div class="bg-slate-900/40 border border-slate-800/80 p-6 rounded-xl flex flex-col sm:flex-row sm:items-center justify-between gap-4">
+        <div>
+          <h3 class="text-base font-semibold text-white">Class XII (Senior Secondary)[cite: 1]</h3>
+          <p class="text-slate-300 text-sm">Drona Public School[cite: 1]</p>
+          <p class="text-xs text-slate-400 mt-1">Percentage: 69.2%[cite: 1]</p>
+        </div>
+        <div class="text-left sm:text-right">
+          <span class="text-xs font-mono text-slate-400 block">2022 – 2023[cite: 1]</span>
+          <span class="text-xs text-slate-500">Gurugram, India[cite: 1]</span>
+        </div>
+      </div>
+
+      <div class="bg-slate-900/40 border border-slate-800/80 p-6 rounded-xl flex flex-col sm:flex-row sm:items-center justify-between gap-4">
+        <div>
+          <h3 class="text-base font-semibold text-white">Class X (Secondary School)[cite: 1]</h3>
+          <p class="text-slate-300 text-sm">Drona Public School[cite: 1]</p>
+          <p class="text-xs text-slate-400 mt-1">Percentage: 87.0%[cite: 1]</p>
+        </div>
+        <div class="text-left sm:text-right">
+          <span class="text-xs font-mono text-slate-400 block">2020 – 2021[cite: 1]</span>
+          <span class="text-xs text-slate-500">Gurugram, India[cite: 1]</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Resume Section -->
+  <section id="resume" class="py-20 bg-slate-900/50 border-t border-slate-850 px-4 sm:px-6">
+    <div class="max-w-6xl mx-auto">
+      <div class="flex items-center gap-3 mb-10">
+        <span class="text-indigo-400 font-mono text-sm">07.</span>
+        <h2 class="text-2xl sm:text-3xl font-bold text-white">Curriculum Vitae / Resume</h2>
+        <div class="h-[1px] bg-slate-800 flex-grow ml-4 max-w-xs"></div>
+      </div>
+
+      <div class="grid lg:grid-cols-3 gap-8">
+        <!-- Main Download Card -->
+        <div class="lg:col-span-1 bg-slate-900 border border-slate-800 rounded-2xl p-6 flex flex-col justify-between">
+          <div>
+            <div class="w-12 h-12 rounded-xl bg-indigo-950/80 border border-indigo-700/50 flex items-center justify-center text-indigo-400 text-xl mb-4">
+              <i class="fa-solid fa-file-lines"></i>
+            </div>
+            <h3 class="text-xl font-bold text-white mb-2">Latest Resume</h3>
+            <p class="text-sm text-slate-400 mb-6">
+              Download the official PDF document containing updated academic background, AI/ML skillsets, and professional experience.
+            </p>
+            
+            <div class="space-y-3">
+              <a id="downloadResumeBtn" href="resume.pdf" download="Chandan_Resume.pdf" class="w-full py-3 px-4 rounded-xl bg-indigo-600 hover:bg-indigo-500 text-white font-semibold text-sm transition-all flex items-center justify-center gap-2 shadow-lg shadow-indigo-600/30">
+                <i class="fa-solid fa-download"></i>
+                <span>Download Resume (PDF)</span>
+              </a>
+
+              <a id="viewResumeBtn" href="resume.pdf" target="_blank" class="w-full py-3 px-4 rounded-xl bg-slate-800 hover:bg-slate-700 text-slate-200 font-semibold text-sm transition-all border border-slate-700 flex items-center justify-center gap-2">
+                <i class="fa-solid fa-arrow-up-right-from-square text-xs"></i>
+                <span>Open in New Tab</span>
+              </a>
+            </div>
+          </div>
+
+          <!-- Future Update Tool / Local Upload Tester -->
+          <div class="mt-8 pt-6 border-t border-slate-800">
+            <h4 class="text-xs font-semibold uppercase tracking-wider text-slate-300 mb-2">Quick Update / Test Preview</h4>
+            <p class="text-xs text-slate-400 mb-3">
+              Want to preview a new resume PDF right now? Select it below to instantly update the viewer and download links:
+            </p>
+            <label class="flex flex-col items-center justify-center px-4 py-4 border-2 border-dashed border-slate-700 hover:border-indigo-500 rounded-xl cursor-pointer transition-colors bg-slate-950/50 group">
+              <i class="fa-solid fa-cloud-arrow-up text-slate-400 group-hover:text-indigo-400 text-lg mb-1"></i>
+              <span class="text-xs text-slate-300 font-medium group-hover:text-white">Choose New PDF</span>
+              <span class="text-[10px] text-slate-500 mt-0.5">Supports .pdf files</span>
+              <input type="file" id="resumeFileInput" accept="application/pdf" class="hidden" />
+            </label>
+            <p id="uploadFeedback" class="text-[11px] text-emerald-400 mt-2 text-center hidden">
+              <i class="fa-solid fa-circle-check mr-1"></i> Loaded new resume preview!
+            </p>
+          </div>
+        </div>
+
+        <!-- Embedded Viewer -->
+        <div class="lg:col-span-2 bg-slate-900 border border-slate-800 rounded-2xl p-4 flex flex-col h-[560px]">
+          <div class="flex items-center justify-between pb-3 px-2 border-b border-slate-800 mb-3 text-xs text-slate-400">
+            <span class="flex items-center gap-2">
+              <span class="w-2.5 h-2.5 rounded-full bg-emerald-400"></span>
+              <span id="previewTitle" class="font-mono text-slate-300">resume.pdf</span>
+            </span>
+            <span class="font-mono text-[11px]">Interactive PDF Viewer</span>
+          </div>
+
+          <div class="flex-grow bg-slate-950 rounded-lg overflow-hidden border border-slate-800/80 relative">
+            <iframe id="resumeViewerFrame" src="resume.pdf" class="w-full h-full border-0" title="Chandan Resume">
+              <div class="p-6 text-center text-slate-400">
+                <p>Your browser doesn't support PDF iframes.</p>
+                <a href="resume.pdf" class="text-indigo-400 underline mt-2 inline-block">Click here to download.</a>
+              </div>
+            </iframe>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact" class="py-20 bg-slate-900/70 border-t border-slate-800 px-4 sm:px-6">
+    <div class="max-w-3xl mx-auto text-center">
+      <span class="text-indigo-400 font-mono text-sm">08. What's Next?</span>
+      <h2 class="text-3xl sm:text-4xl font-extrabold text-white mt-2 mb-4">Let's Connect</h2>
+      <p class="text-slate-400 text-base mb-8">
+        I am actively seeking AI/ML and Data Science internship opportunities. Whether you have an open role, a project collaboration, or just want to discuss machine learning, my inbox is open!
+      </p>
+
+      <div class="flex flex-wrap items-center justify-center gap-4 mb-8">
+        <a href="mailto:gvghbjkgu@gmail.com" class="px-6 py-3 rounded-lg bg-indigo-600 hover:bg-indigo-500 text-white font-semibold text-sm transition-all shadow-lg shadow-indigo-600/30 flex items-center gap-2">
+          <i class="fa-solid fa-envelope"></i>
+          <span>gvghbjkgu@gmail.com</span>[cite: 1]
+        </a>
+        <a href="tel:+9194545165658" class="px-6 py-3 rounded-lg bg-slate-800 hover:bg-slate-700 text-slate-200 font-semibold text-sm transition-all border border-slate-700 flex items-center gap-2">
+          <i class="fa-solid fa-phone"></i>
+          <span>+91-94545165658</span>[cite: 1]
+        </a>
+      </div>
+
+      <div class="flex items-center justify-center gap-6 text-slate-400 text-xl">
+        <a href="https://linkedin.com/in/chandan-kumar/" target="_blank" class="hover:text-indigo-400 transition-colors" title="LinkedIn Profile[cite: 1]">
+          <i class="fa-brands fa-linkedin"></i>
+        </a>
+        <a href="https://github.com" target="_blank" class="hover:text-indigo-400 transition-colors" title="GitHub Profile[cite: 1]">
+          <i class="fa-brands fa-github"></i>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="py-8 border-t border-slate-900 text-center text-xs text-slate-500 font-mono">
+    <p>Designed & Built by Chandan • Hosted on GitHub Pages</p>[cite: 1]
+  </footer>
+
+  <script>
+    // Handles dynamic resume file selection for instant in-browser updates
+    const resumeFileInput = document.getElementById('resumeFileInput');
+    const resumeViewerFrame = document.getElementById('resumeViewerFrame');
+    const downloadResumeBtn = document.getElementById('downloadResumeBtn');
+    const viewResumeBtn = document.getElementById('viewResumeBtn');
+    const previewTitle = document.getElementById('previewTitle');
+    const uploadFeedback = document.getElementById('uploadFeedback');
+
+    resumeFileInput.addEventListener('change', function(e) {
+      const file = e.target.files[0];
+      if (file && file.type === 'application/pdf') {
+        const fileURL = URL.createObjectURL(file);
+        
+        // Update the iframe preview
+        resumeViewerFrame.src = fileURL;
+        
+        // Update download & open-tab links
+        downloadResumeBtn.href = fileURL;
+        downloadResumeBtn.download = file.name;
+        viewResumeBtn.href = fileURL;
+        
+        // Update UI text
+        previewTitle.textContent = file.name;
+        uploadFeedback.classList.remove('hidden');
+      } else {
+        alert('Please select a valid PDF document.');
+      }
+    });
+  </script>
+</body>
+</html>
